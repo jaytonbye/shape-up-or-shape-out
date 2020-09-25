@@ -1,0 +1,33 @@
+.inputs {
+    background-color: red;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 500px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: lightblue;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  #canvas {
+      height: 600px;
+      width: 600px;
+      background-color: lightgrey;
+      top: 50px;
+      left: 50px;
+      position: relative;
+  }
+
+  .shape {
+      position: absolute;
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      left: 20px;
+      top: 100px;
+  }

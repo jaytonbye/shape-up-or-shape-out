@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape up or shape out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidenav">
+        <h3>Click on a shape to learn about it:</h3>
+        <label for="shape">Shape:</label>
+        <input type="text" name="shape" id="shapeOutput"/>
+        <hr>
+        <label for="heightOutput">Height:</label>
+        <input type="text" name="heightOutput" id="heightOutput"/>
+        <hr>
+        <label for="WidthOutput">Width:</label>
+        <input type="text" name="widthOutput" id="widthOutput"/>
+        <hr>
+        <label for="areaOutput">Area:</label>
+        <input type="text" name="areaOutput" id="areaOutput"/>
+        <hr>
+        <label for="perimeterOutput">Perimeter:</label>
+        <input type="text" name="perimeterOutput" id="perimeterOutput"/>
+        <hr>
+        <label for="radius">Radius:</label>
+        <input type="text" name="radiusOutput" id="radiusOutput"/>
+    </div>
+    <h1>Fill in the info and click the buttons to make shapes!</h1>
+    <div class="inputs">
+            <label for="height">Height in px:</label>
+            <input type="number" name="height" id="rectangleHeight"/>
+            <label for="width">Width in px:</label>
+            <input type="number" name="width" id="rectangleWidth"/>
+            <button id="rectangleButton">Create Rectangle</button>
+            <hr>
+            <label for="width">Side length in px:</label>
+            <input type="number" name="width" id="squareWidth"/>
+            <button id="squareButton">Create Square</button>
+            <hr>
+            <label for="radius">Radius in px:</label>
+            <input type="number" name="radius" id="circleRadius"/>
+            <button id="circleButton">Create Circle</button>
+            <hr>
+            <label for="height">Height in px:</label>
+            <input type="number" name="height" id="triangleHeight"/>
+            <button id="triangleButton">Create Isoceles Right Triangle</button>
+            <hr>
+            <label for="wayneCarl">Height in px:</label>
+            <input type="number" name="wayneCarl" id="wayneCarlHeight"/>
+            <button id="wayneCarlButton">Create Dead WayneCarl</button>
+        
+    </div>
+    <div id="canvas">
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
